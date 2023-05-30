@@ -1,0 +1,33 @@
+.td {
+    color: white;
+    text-align: center;
+    background-color: black ;
+}
+
+.body {
+
+    background-image: url(https://previews.123rf.com/images/naropano/naropano1611/naropano161100065/68096771-m%C3%A1rmol-textura-de-fondo-blanco-y-negro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video  {
+    width: 50%;
+}
+
+.titulo {
+    border: 0;
+    display: block;
+    background: none;
+    margin: 2px auto;
+    padding: 14px 2px;
+    text-align: center;
+    border: 6px solid #c501e2;
+    width: 800px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.30s;
+}

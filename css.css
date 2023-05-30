@@ -1,0 +1,75 @@
+body , html{
+    background: coral;
+    height: 100%;
+    
+}
+
+body {
+    background: url("https://www.autoavance.co/wp-content/uploads/2021/10/taller-mecanico-productividad.jpeg");
+    background-size: 100% 100%;
+    background-attachment:fixed ;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita {
+    width: 300px;
+    padding: 70px;
+    background: black;
+    text-align: center;
+    border-radius: 25px;
+    
+
+}
+
+.from-title {
+    color: white;
+    text-transform:uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.cajita input[ type="text" ],
+.cajita input[ type="contraseña" ],
+.cajita button[ type="submit" ] {
+    border: 0;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #c501e2;
+    width: 100px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.30s;
+}
+
+.cajita input[ type="text" ]:focus,
+.cajita input[ type="contraseña" ]:focus {
+    width: 200px;
+    border-color: black
+}
+
+.cajita button[ type="submit" ] {
+    border: 0;
+    background: #ED91E3;
+    cursor: pointer;
+    border: 2px solid #c501e2;
+
+}
+
+.cajita button[ type="submit" ]:hover {
+    background: none;
+}
+
+.uno {
+    color: white;
+}
